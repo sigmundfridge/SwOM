@@ -591,6 +591,7 @@ EOT;
 	public function sigf_category_count($cat_list, $max_cat, $show_empty=0) {
 		$all_cats = get_categories(array('hide_empty'=>0));		
 		$all_cat_by_id = array();
+		if(empty($cat_list)) $cat_list = $all_cats;
 		foreach($all_cats as $cat) $all_cat_by_id[$cat->term_id]=$cat;	
 		$i=0;
 		foreach($cat_list as $id =>$cat) {

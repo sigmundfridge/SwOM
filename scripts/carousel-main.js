@@ -1,4 +1,6 @@
 (function($) {	
+    $('html').addClass('js');
+
 	$(document).ready(function(){ 		
 		$('#latestPosts').jcarousel({
 			size: parseInt(carouselParam.carousel_size),
