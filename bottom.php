@@ -3,15 +3,15 @@
 <div class="two-col">
 <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('First Footer Area') ) : // begin primary sidebar widgets ?>
 	<h2>About</h2>
-	<p>Futurosity Magazine Theme was designed by <a href="http://www.upstartblogger.com/" title="Upstart Blogger">Upstart Blogger</a> and is based on a designed previously used on <a href="http://www.futurosity.com/" title="Futurosity">Futurosity</a>. You will always find the latest information for this theme at <a href="http://www.upstartblogger.com/wordpress-theme-upstart-blogger-futurosity-magazine" title="Permalink to WordPress Theme: Upstart Blogger Futurosity Magazine">WordPress Theme: Upstart Blogger Futurosity Magazine Theme</a>.</strong></p>
+	<p>SwOM is a recoded, and slightly redesigned version of the <a href = "http://www.upstartblogger.com/wordpress-theme-upstart-blogger-futurosity-magazine">Futurosity Magazine Theme</a>, which was designed by <a href="http://www.upstartblogger.com/" title="Upstart Blogger">Upstart Blogger</a> . It was built upon request of <a href = "http://materialistpapers.com/">the Materialist Papers</a>.</p>
 	<p>This text can be replaced with a widget in the widget menu ('First Footer Area')</p>
 <? endif; ?>
 </div>
 
 <div class="two-col">
 <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Second Footer Area') ) : // begin primary sidebar widgets ?>
-  	<h2>Recent posts/comments or similar?</h2>
-	<p> Space is for rent.....</p>
+  	<h2>Download</h2>
+	<p>You can download this theme for free from <a href = "http://sigfrid.co.uk/downloads/">SigF</a>. It also has a <a href = "https://github.com/sigmundfridge/SwOM">GitHub repository.</a></p>
 <? endif; ?>
 </div>
  
