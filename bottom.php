@@ -4,7 +4,6 @@
 <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('First Footer Area') ) : // begin primary sidebar widgets ?>
 	<h2>About</h2>
 	<p>SwOM is a recoded, and slightly redesigned version of the <a href = "http://www.upstartblogger.com/wordpress-theme-upstart-blogger-futurosity-magazine">Futurosity Magazine Theme</a>, which was designed by <a href="http://www.upstartblogger.com/" title="Upstart Blogger">Upstart Blogger</a> . It was built upon request of <a href = "http://materialistpapers.com/">the Materialist Papers</a>.</p>
-	<p>This text can be replaced with a widget in the widget menu ('First Footer Area')</p>
 <? endif; ?>
 </div>
 
